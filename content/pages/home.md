@@ -1,16 +1,14 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+title: RustBlood
+featuredImage: 'https://github.com/rustbloodservers/rustbloodservers.github.io/raw/master/img/header.jpg'
+subtitle: ' Welcome to RustBlood - a place to enjoy a well moderated network of Rust servers.'
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: RustBlood Servers Home Page.
+  title: RustBlood
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
-
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+RustBlood is a growing community of like minded gamers that enjoy competitive play on a dynamic platform. If you would like to join or have any questions, feel free to join the **[Discord](https://discord.gg/bzT9Euc)**
 
 # Features
 
@@ -22,9 +20,3 @@ View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-r
 * Blog searching and paging functionality
 * Seamless image and content sliders
 * Instagram feed integration
-
-## Get started
-
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
