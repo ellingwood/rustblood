@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import BlogSearch from './BlogSearch'
+import ServerSearch from './ServerSearch'
 import './PostCategoriesNav.css'
 
 const ServerListNav = ({ categories, enableSearch }) => (
@@ -20,7 +20,7 @@ const ServerListNav = ({ categories, enableSearch }) => (
       </Link>
     ))}
 
-    {enableSearch && <BlogSearch />}
+    {enableSearch && <ServerSearch />}
   </div>
 )
 

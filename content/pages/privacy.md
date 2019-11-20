@@ -2,7 +2,7 @@
 template: HomePage
 slug: privacy
 title: Privacy Policy
-featuredImage: 'https://github.com/rustbloodservers/rustbloodservers.github.io/raw/master/img/header.jpg'
+featuredImage: 'images/header.jpg'
 subtitle: How We Use Your Information
 meta:
   description: Privacy policy for the RustBlood servers.
