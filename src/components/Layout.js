@@ -22,8 +22,8 @@ export default ({ children, meta, title }) => {
               image
             }
           }
-          allPosts: allMarkdownRemark(
-            filter: { fields: { contentType: { eq: "postCategories" } } }
+          allServers: allMarkdownRemark(
+            filter: { fields: { contentType: { eq: "serverCategories" } } }
             sort: { order: DESC, fields: [frontmatter___date] }
           ) {
             edges {
@@ -43,9 +43,9 @@ export default ({ children, meta, title }) => {
         const { siteTitle, socialMediaCard, googleTrackingId } =
             data.settingsYaml || {},
           subNav = {
-            posts: data.allPosts.hasOwnProperty('edges')
-              ? data.allPosts.edges.map(post => {
-                  return { ...post.node.fields, ...post.node.frontmatter }
+            servers: data.allServers.hasOwnProperty('edges')
+              ? data.allServers.edges.map(server => {
+                  return { ...server.node.fields, ...server.node.frontmatter }
                 })
               : false
           }

@@ -1,5 +1,5 @@
 :root {
-  --primary: #00c2bd;
+  --primary: #c25700;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
@@ -112,8 +112,8 @@ blockquote {
   background-color: white;
 }
 .dark {
-  background-color: var(--primary);
-  color: white;
+  background-color: var(--secondary);
+  color: black;
 }
 .dark h1,
 .dark h2,
