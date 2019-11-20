@@ -6,7 +6,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: 'RustBlood',
-    siteUrl: 'https://rustblood.gg'
+    siteUrl: 'https://rustblood.aecloud.co'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         /*id: 'GTM-add_your_tag_here',*/
-        id: 'GTM-NK47MDR',
+        id: 'GTM-WJC7MR2',
         includeInDevelopment: true
       }
     },
