@@ -5,15 +5,17 @@ import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import ServerInfo from '../components/ServerInfo'
 import './SinglePost.css'
 
 export const SingleServerTemplate = ({
   title,
-  date,
+  location,
   body,
   nextServerURL,
   prevServerURL,
-  categories = []
+  categories = [],
+  serverId
 }) => (
   <main>
     <article
@@ -22,23 +24,15 @@ export const SingleServerTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/servers/">
+        <Link className="text-secondary" to="/servers">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
-            {date && (
-              <time
-                className="SinglePost--Meta--Date"
-                itemProp="dateCreated pubdate datePublished"
-                date={date}
-              >
-                {date}
-              </time>
-            )}
+            {location}
+            <span> |</span>
             {categories && (
               <Fragment>
-                <span>|</span>
                 {categories.map((cat, index) => (
                   <span
                     key={cat.category}
@@ -60,6 +54,11 @@ export const SingleServerTemplate = ({
           )}
 
           <div className="SinglePost--InnerContent">
+            <section className="section">
+            <div className="container">
+               <ServerInfo serverId={serverId} />
+            </div>
+            </section>
             <Content source={body} />
           </div>
 
@@ -107,6 +106,7 @@ const SingleServer = ({ data: { server, allServers } }) => {
         body={server.html}
         nextServerURL={_get(thisEdge, 'next.fields.slug')}
         prevServerURL={_get(thisEdge, 'previous.fields.slug')}
+        serverId={server.frontmatter.serverId}
       />
     </Layout>
   )
@@ -128,10 +128,11 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        date(formatString: "MMMM Do, YYYY")
         categories {
           category
         }
+        serverId
+        location
       }
     }
 

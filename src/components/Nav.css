@@ -33,6 +33,28 @@
   display: none !important;
 }
 
+.Nav--a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.5rem 1rem;
+  display: block;
+  font-weight: 500;
+  transition: color 0.2s, border-bottom-color 0.2s;
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  border-bottom-color: transparent;
+}
+
+.Nav--a:hover,
+.Nav--a:active,
+.Nav--a:focus {
+  color: var(--primary);
+  border-bottom-color: currentColor;
+}
+
 .NavLink {
   padding: 0.5rem 1rem;
   display: block;

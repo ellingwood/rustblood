@@ -3,6 +3,7 @@ import { Location } from '@reach/router'
 import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
 import Logo from './Logo'
+import GithubCorner from './GithubCorner'
 
 import './Nav.css'
 
@@ -50,7 +51,6 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'servers' ? 'active' : ''
@@ -68,7 +68,7 @@ export class Navigation extends Component {
                 Servers
               </span>
               <div className="Nav--GroupLinks">
-                <NavLink to="/servers/" className="Nav--GroupLink">
+                <NavLink to="/servers" className="Nav--GroupLink">
                   All Servers
                 </NavLink>
                 {subNav.servers.map((link, index) => (
@@ -82,8 +82,8 @@ export class Navigation extends Component {
                 ))}
               </div>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
+            <a href="https://sdonate.com/stores/rustblood/" rel="noopener noreferrer" target="_blank" className="Nav--a">Donate</a>
+            <NavLink to="/contact">Contact</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
@@ -91,6 +91,7 @@ export class Navigation extends Component {
           >
             {active ? <X /> : <Menu />}
           </button>
+          <GithubCorner url="https://github.com/austinellingwood/rustblood" />
         </div>
       </nav>
     )
