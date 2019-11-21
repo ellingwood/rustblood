@@ -115,7 +115,7 @@ const SingleServer = ({ data: { server, allServers } }) => {
 export default SingleServer
 
 export const pageQuery = graphql`
-  ## Query for SinglePost data
+  ## Query for SingleServer data
   ## Use GraphiQL interface (http://localhost:8000/___graphql)
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file

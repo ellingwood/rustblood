@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: RustBlood
-featuredImage: 'images/header.jpg'
+featuredImage: 'https://raw.githubusercontent.com/rustbloodservers/rustbloodservers.github.io/master/img/header.jpg'
 subtitle: ' Welcome to RustBlood - a place to enjoy a well moderated network of Rust servers.'
 meta:
   description: RustBlood Servers Home Page.

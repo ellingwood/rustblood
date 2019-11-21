@@ -68,7 +68,7 @@ export class Navigation extends Component {
                 Servers
               </span>
               <div className="Nav--GroupLinks">
-                <NavLink to="/servers" className="Nav--GroupLink">
+                <NavLink to="/servers/" className="Nav--GroupLink">
                   All Servers
                 </NavLink>
                 {subNav.servers.map((link, index) => (
@@ -83,7 +83,7 @@ export class Navigation extends Component {
               </div>
             </div>
             <a href="https://sdonate.com/stores/rustblood/" rel="noopener noreferrer" target="_blank" className="Nav--a">Donate</a>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"

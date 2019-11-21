@@ -232,3 +232,7 @@ blockquote {
   align-items: center;
   justify-content: center;
 }
+
+.Home {
+  font-size: 16px;
+}

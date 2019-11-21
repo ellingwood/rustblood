@@ -75,7 +75,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const parsedFilePath = path.parse(fileNode.relativePath)
 
     if (_.get(node, 'frontmatter.slug')) {
-      slug = `/${node.frontmatter.slug.toLowerCase()}`
+      slug = `/${node.frontmatter.slug.toLowerCase()}/`
     } else if (
       // home page gets root slug
       parsedFilePath.name === 'home' &&
@@ -85,11 +85,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     } else if (_.get(node, 'frontmatter.title')) {
       slug = `/${_.kebabCase(parsedFilePath.dir)}/${_.kebabCase(
         node.frontmatter.title
-      )}`
+      )}/`
     } else if (parsedFilePath.dir === '') {
-      slug = `/${parsedFilePath.name}`
+      slug = `/${parsedFilePath.name}/`
     } else {
-      slug = `/${parsedFilePath.dir}`
+      slug = `/${parsedFilePath.dir}/`
     }
 
     createNodeField({

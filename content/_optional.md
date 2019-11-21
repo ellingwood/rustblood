@@ -4,7 +4,7 @@ meta:
   description: 'RustBlood Server Site'
   noindex: false
   title: 'RustBlood'
-featuredImage: 'https://github.com/rustbloodservers/rustbloodservers.github.io/raw/master/img/header.jpg'
+featuredImage: 'https://raw.githubusercontent.com/rustbloodservers/rustbloodservers.github.io/master/img/header.jpg'
 gallery:
   - alt: ''
     image: ''

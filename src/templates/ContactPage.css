@@ -1,8 +1,10 @@
 .Contact {
+  font-size: 16px;
 }
 
 .Contact--Details {
   margin-top: 3rem;
+  font-size: 16px;
 }
 
 .Contact--Details--Item {

@@ -117,7 +117,7 @@ const ServerList = ({ data: { page, servers, serverCategories } }) => (
 export default ServerList
 
 export const pageQuery = graphql`
-  ## Query for BlogIndex data
+  ## Query for ServerList data
   ## Use GraphiQL interface (http://localhost:8000/___graphql)
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file

@@ -18,6 +18,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  font-size: 18px;
 }
 
 .Nav--Links > * + * {
