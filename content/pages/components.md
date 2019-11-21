@@ -25,7 +25,7 @@ section2: |-
   allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
+videoPoster: 'https://media.giphy.com/media/pEZ5jBF8I2tgY/giphy.gif'
 videoTitle: Also background videos, with poster image & title overlay.
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse

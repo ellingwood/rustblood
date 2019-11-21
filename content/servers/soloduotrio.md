@@ -9,7 +9,7 @@ excerpt: >-
 categories:
   - category: Vanilla
 location: Chicago, IL
-serverId: 3089012
+serverId: 2658112
 meta:
   canonicalLink: ''
   description: Vanilla Solo Duo Trio Rust Server Info
