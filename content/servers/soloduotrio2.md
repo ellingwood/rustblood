@@ -1,6 +1,6 @@
 ---
 template: SingleServer
-title: Solo Duo Trio Quad 2
+title: Solo Duo Trio 2X
 status: Featured / Published
 date: '2019-11-17'
 featuredImage: 'https://i.imgur.com/Di4iVZL.png'
