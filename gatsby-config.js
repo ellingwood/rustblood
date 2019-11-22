@@ -127,6 +127,12 @@ module.exports = {
         // Disable the loading spinner.
         showSpinner: true
       }
+    },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
     }
   ]
 }
