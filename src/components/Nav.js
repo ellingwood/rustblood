@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Location } from '@reach/router'
 import { Link } from 'gatsby'
-import { Menu, X } from 'react-feather'
+//import { Menu, X } from 'react-feather'
 import Logo from './Logo'
 import GithubCorner from './GithubCorner'
 
@@ -39,7 +39,7 @@ export class Navigation extends Component {
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
         <div className="Nav--Container container">
-          <Link to="/" onClick={this.handleLinkClick}>
+          <Link to="/" onClick={this.handleLinkClick} aria-label="Home">
             <Logo />
           </Link>
           <div className="Nav--Links">
@@ -50,12 +50,6 @@ export class Navigation extends Component {
             <a href="https://sdonate.com/stores/rustblood/" rel="noopener noreferrer" target="_blank" className="Nav--a">Donate</a>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
-          <button
-            className="Button-blank Nav--MenuButton"
-            onClick={this.handleMenuToggle}
-          >
-            {active ? <X /> : <Menu />}
-          </button>
           <GithubCorner url="https://github.com/austinellingwood/rustblood" />
         </div>
       </nav>

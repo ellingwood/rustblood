@@ -58,6 +58,8 @@ export default ({ children, meta, title }) => {
               {title}
               <link href="https://www.google-analytics.com" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+              <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin />
+              <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
               {/* Add font link tags here */}
             </Helmet>
 
