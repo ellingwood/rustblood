@@ -2,7 +2,7 @@
 template: ComponentsPage
 slug: components
 title: Components Page
-featuredImage: 'https://raw.githubusercontent.com/rustbloodservers/rustbloodservers.github.io/master/img/header.jpg'
+featuredImage: '/images/header.jpg'
 subtitle: This is the components page subtitle.
 section1: >-
   ## This is a container component

@@ -56,6 +56,8 @@ export default ({ children, meta, title }) => {
               titleTemplate={`%s | ${siteTitle}`}
             >
               {title}
+              <link href="https://www.google-analytics.com" rel="preconnect" crossorigin />
+              <link rel="dns-prefetch" href="https://www.google-analytics.com" />
               {/* Add font link tags here */}
             </Helmet>
 

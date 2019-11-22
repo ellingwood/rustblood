@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact
-featuredImage: 'https://raw.githubusercontent.com/rustbloodservers/rustbloodservers.github.io/master/img/header.jpg'
+featuredImage: '/images/header.jpg'
 subtitle: Feel free to reach out via email with your questions!
 address: '1401 N. Meridian Street, Indianapolis, IN 46202'
 phone: 1 234 567 890

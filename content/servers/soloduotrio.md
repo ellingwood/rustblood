@@ -3,7 +3,7 @@ template: SingleServer
 title: Solo Duo Trio
 status: Featured / Published
 date: '2019-11-17'
-featuredImage: 'https://i.imgur.com/Di4iVZL.png'
+featuredImage: '/images/rustblood.png'
 excerpt: >-
   The RustBlood Vanilla Trio server is built to be high performance, well moderated vanilla experience for players who do not wish to play on servers with large groups.
 categories:
